@@ -1,0 +1,291 @@
+body {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    line-height: 1.6;    
+    margin: 0px;
+    padding: 0px;
+    background-color: lavender;    
+}
+
+header > img {
+    width: 100%;
+    height: auto;
+    max-height: 250px; 
+    display: block;
+    margin: 0 auto; 
+}
+
+body nav {
+	margin: 0px 5%;
+}
+
+body nav li {
+	width: 45%;
+	background-color: rgb(54, 54, 54);
+	color: white;
+	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+	display: inline-block;
+	margin-top: 10px;
+	text-align: center;
+}
+
+nav ul li:nth-child(odd){
+	margin-right: 10%;
+} 
+
+body nav li a  {
+	color: white;
+	text-decoration: none;
+	display: inline-block;
+	width: 100%;
+	height: 100%;
+	padding: 5px 0px;
+	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+body nav li a:hover  {
+	color: darkgray;
+	text-decoration: none;
+}
+
+h1 {
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+main,aside h2 {
+ 
+    text-align: center;
+}
+
+article,section,aside{
+    margin: 20px auto;
+    padding: 30px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 800px;
+}
+
+article ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+article ul li {
+    background: #e2e2e2;
+    margin: 10px 0;
+    padding: 15px;
+    border-radius: 4px;
+}
+
+
+section ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+section ul li {
+    background: #e2e2e2;
+    margin: 10px 0;
+    padding: 15px;
+    border-radius: 4px;
+}
+
+
+article ul li:nth-child(odd) {
+    background: #d1d1d1;
+}
+
+.content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 0 5%;
+}
+
+.home-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 0 5%;
+}
+
+main, aside{
+    background-color: white;
+    border: 1px solid #cacaca;
+    margin: 20px 10px;
+    padding: 30px; 
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    box-sizing: border-box;
+}
+
+
+main{
+    flex: 2.5;
+    margin-right: 2%;
+}
+
+aside {
+    flex: 1.5;
+    height: 65em;
+}
+#aside2{
+    flex: 1.5;
+    height: 120em;
+}
+pre {
+    white-space: pre-wrap; /* Questo permette il wrapping del testo */
+    word-wrap: break-word; /* Forza il wrapping delle parole lunghe */
+    overflow: auto; /* Aggiunge una barra di scorrimento se necessario */
+    margin: 20px 0; /* Aggiungi un margine per separare i blocchi di codice dal testo circostante */
+    padding: 10px; /* Padding per un po' di spazio all'interno del blocco di codice */
+    background-color: #f5f5f5; /* Sfondo leggermente grigio per distinguere il codice dal resto del testo */
+    border-radius: 4px; /* Bordo arrotondato per un aspetto più piacevole */
+    max-width: 100%; /* Assicura che il blocco di codice non superi la larghezza del contenitore */
+    box-sizing: border-box; /* Include padding e bordi nella larghezza totale */
+}
+
+pre > code {
+    display: block; /* Imposta il codice come blocco per garantire che occupi tutta la larghezza disponibile */
+    white-space: pre-wrap; /* Permette il wrapping del testo all'interno del blocco di codice */
+    word-wrap: break-word; /* Forza il wrapping delle parole lunghe */
+    color: chocolate; /* Colore del testo */
+}
+
+p a {
+    text-decoration: none; 
+    color: chocolate; 
+}
+p a:hover {
+    color: darkgrey; /* Colore del testo quando il mouse passa sopra */
+}
+
+
+body>footer {
+    font-family: 'Courier New', Courier, monospace;
+    background-color: rgb(54, 54, 54);
+    text-align: center;
+    color: white;
+    padding: 10px;
+    margin: 0px;
+}
+
+@media screen and (min-width: 768px) {
+    nav{
+		margin: 0 10%;
+	}
+
+	nav ul li{
+		width: 19%;
+		
+	}
+
+	nav ul li:not(:last-child) { /* 'not last child' vuol dire proprio 'non per l'ultimo', ovvero non fa andare a capo la sezione login nel nostro caso */
+		margin-right: 7%;
+	}
+
+    main, aside,#aside2{
+		display: inline-block;
+		vertical-align: top;
+	}
+
+	main{
+		width: 50%;
+		margin: 20px 10px 0 5%;
+		box-sizing: border-box;
+	}
+
+	aside,#aside{
+		width: 25%;
+		margin: 20px 10px 0 5%;
+		box-sizing: border-box;
+	}
+
+    table {
+        overflow-x: auto; /* Scorrimento orizzontale se necessario */
+    }
+
+    th, td {
+        padding: 8px; 
+        text-align: center; 
+    }
+
+    th {
+        font-size: 14px; 
+    }
+
+    main#main2 {
+        padding: 10px;
+    }
+}
+
+main#main2 {
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 20px;
+    box-sizing: border-box;
+}
+/*TABELLA*/
+.container {
+    width: 100%;
+    max-width: 1200px; 
+    margin: 0 auto; 
+    padding: 20px; 
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 3px;
+    overflow: hidden;
+    margin-top: 20px;
+  }
+  
+  th, td {
+    padding: 12px;
+    text-align: center;
+    border: 1px solid #dddddd;
+  }
+  
+  th {
+    background-color: #4CAF50;
+    color: white;
+    text-transform: uppercase;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+
+  tr:hover {
+    background-color: #ddd;
+  }
+
+h2{
+    text-align: center;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    margin: 5px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+
+
+
+
+
+
+  

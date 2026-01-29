@@ -1,0 +1,127 @@
+[{
+	"NomeTecnologia": "Motore a vapore",
+	"Inventore": "James Watt",
+	"AnnoInvenzione": "1765",
+	"Impatto": "Rivoluzione Industriale, trasporto e produzione meccanica"
+},
+{
+	"NomeTecnologia": "Lampadina Elettrica",
+	"Inventore": "Thomas Edison",
+	"AnnoInvenzione": "1879",
+	"Impatto": "Illuminazione domestica e Industriale"
+},
+{
+	"NomeTecnologia": "Telefono",
+	"Inventore": "Alexander Graham Bell",
+	"AnnoInvenzione": "1876",
+	"Impatto": "Comunicazioni a distanza"
+},
+{
+	"NomeTecnologia": "Automobile",
+	"Inventore": "Karl Benz",
+	"AnnoInvenzione": "1885",
+	"Impatto": "Mobilità individuale e trasporto di massa"
+},
+{
+	"NomeTecnologia": "Aeroplano",
+	"Inventore": "Fratelli Wright",
+	"AnnoInvenzione": "1903",
+	"Impatto": "Trasporto aereo e connessione globale"
+},
+{
+	"NomeTecnologia": "Internet",
+	"Inventore": "Tim Berners-Lee",
+	"AnnoInvenzione": "1983",
+	"Impatto": "Comunicazione globale e accesso all'informazione"
+},
+{
+	"NomeTecnologia": "Personal Computer",
+	"Inventore": "Steve Jobs e Steve Woznlak",
+	"AnnoInvenzione": "1976",
+	"Impatto": "Informatica personale e produttività"
+},
+{
+	"NomeTecnologia": "Smartphone",
+	"Inventore": "Steve Jobs (Apple)",
+	"AnnoInvenzione": "2007",
+	"Impatto": "Comunicazione mobile e accesso a informazioni e servizi"
+},
+{
+	"NomeTecnologia": "Energia Solare",
+	"Inventore": "Edmond Becquerel",
+	"AnnoInvenzione": "1839",
+	"Impatto": "Energia rinnovabile e sostenibilità"
+},
+{
+	"NomeTecnologia": "Radio",
+	"Inventore": "Guglielmo Marconi",
+	"AnnoInvenzione": "1895",
+	"Impatto": "Comunicazione wireless e diffuzione di informazioni"
+},
+{
+	"NomeTecnologia": "Televisione",
+	"Inventore": "Philo Farnsworth",
+	"AnnoInvenzione": "1927",
+	"Impatto": "Intrattenimento e informazione visiva"
+},
+{
+	"NomeTecnologia": "Fotografia",
+	"Inventore": "Joseph Nicéphore Niépce",
+	"AnnoInvenzione": "1826",
+	"Impatto": "Documentazione visiva a arte"
+},
+{
+	"NomeTecnologia": "Laser",
+	"Inventore": "Theodore Malman",
+	"AnnoInvenzione": "1960",
+	"Impatto": "Applicazioni mediche, industriali e di comunicazione"
+},
+{
+	"NomeTecnologia": "Microonde",
+	"Inventore": "Percy Spencer",
+	"AnnoInvenzione": "1945",
+	"Impatto": "Cottura rapida e riscaldamento del cibo"
+},
+{
+	"NomeTecnologia": "GPS",
+	"Inventore": "Ivan Getting, Bradford Parldinson",
+	"AnnoInvenzione": "1973",
+	"Impatto": "Navigazione e localizzazione"
+},
+{
+	"NomeTecnologia": "Elettricità",
+	"Inventore": "Benjamin Franklin, Nikola Tesla",
+	"AnnoInvenzione": "1752,1887",
+	"Impatto": "Energia per abitazione e industria"
+},
+{
+	"NomeTecnologia": "Internet delle cose",
+	"Inventore": "Kevin Ashton",
+	"AnnoInvenzione": "1999",
+	"Impatto": "Connessione e automazione di dispositivi"
+},
+{
+	"NomeTecnologia": "Realtà Virtuale (VR)",
+	"Inventore": "Morton Heilig",
+	"AnnoInvenzione": "1962",
+	"Impatto": "Intrattenimento immersivo e formazione"
+},
+{
+	"NomeTecnologia": "Intelligienza Artificiale",
+	"Inventore": "John McCarthy",
+	"AnnoInvenzione": "1956",
+	"Impatto": "Automazione e miglioramento dei processi decisionali"
+},
+{
+	"NomeTecnologia": "Codici a barre",
+	"Inventore": "Norman Joseph Woodland",
+	"AnnoInvenzione": "1952",
+	"Impatto": "Tracciabilità dei prodotti e efficienza nel commercio"
+},
+{
+	"NomeTecnologia": "Fotocopiatrice",
+	"Inventore": "Chester Carlson",
+	"AnnoInvenzione": "1938",
+	"Impatto": "Riproduzione rapida di documenti"
+}
+]
